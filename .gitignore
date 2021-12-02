@@ -5,6 +5,12 @@ __pycache__/
 
 # C extensions
 *.so
+# data directory
+/data/MNIST
+
+# gan output directories
+output/
+*.png
 
 # Distribution / packaging
 .Python
@@ -106,6 +112,7 @@ celerybeat.pid
 .venv
 env/
 venv/
+virtualenv/
 ENV/
 env.bak/
 venv.bak/
